@@ -1,3 +1,18 @@
+The *.o files are placed in /home/devel/openjpeg/build/src/lib/openjp2/CMakeFiles/openjp2_static.dir folder.
+The *.a files are placed in /home/devel/openjpeg/build/bin folder
+
+devel@pi5-80:~/test_tile/src/lib/openjp2 $ ls -la /home/devel/openjpeg/build/bin
+total 2020
+drwxr-xr-x 2 devel devel   4096 Jun  2 14:32 .
+drwxr-xr-x 7 devel devel   4096 Jun  2 13:57 ..
+-rw-r--r-- 1 devel devel 842968 Jun  2 14:32 libopenjp2.a
+lrwxrwxrwx 1 devel devel     15 Jun  2 14:32 libopenjp2.so -> libopenjp2.so.7
+-rwxr-xr-x 1 devel devel 639784 Jun  2 14:32 libopenjp2.so.2.5.4
+lrwxrwxrwx 1 devel devel     19 Jun  2 14:32 libopenjp2.so.7 -> libopenjp2.so.2.5.4
+-rwxr-xr-x 1 devel devel 213752 Jun  2 13:58 opj_compress
+-rwxr-xr-x 1 devel devel 213704 Jun  2 13:58 opj_decompress
+-rwxr-xr-x 1 devel devel 212488 Jun  2 13:58 opj_dump
+
 devel@pi5-80:~/test_tile/src/lib/openjp2 $ make clean
 devel@pi5-80:~/test_tile/src/lib/openjp2 $ make
 [  2%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/thread.c.o
