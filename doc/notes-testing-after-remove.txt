@@ -1,0 +1,187 @@
+CMakeFiles/ folder not needed
+devel@pi5-80:~/test_tile/src/lib/openjp2 $ ls -la
+total 60
+drwxr-xr-x 2 devel devel  4096 Jun  2 17:43 .
+drwxr-xr-x 3 devel devel  4096 Jun  2 13:50 ..
+-rw-r--r-- 1 devel devel  3694 Jun  2 13:50 cmake_install.cmake
+-rw-r--r-- 1 devel devel 38617 Jun  2 13:50 Makefile
+-rw-r--r-- 1 devel devel   371 Jun  2 13:50 opj_config.h
+-rw-r--r-- 1 devel devel  1605 Jun  2 13:50 opj_config_private.h
+
+devel@pi5-80:~/test_tile/src/lib/openjp2 $ ls -la ~/openjpeg/build/src/lib/openjp2/CMakeFiles/openjp2.dir/
+total 300
+drwxr-xr-x 2 devel devel   4096 Jun  2 17:41 .
+drwxr-xr-x 4 devel devel   4096 Jun  2 15:11 ..
+-rw-r--r-- 1 devel devel  40413 Jun  2 13:57 build.make
+-rw-r--r-- 1 devel devel   1985 Jun  2 15:11 cmake_clean.cmake
+-rw-r--r-- 1 devel devel 103563 Jun  2 15:11 compiler_depend.internal
+-rw-r--r-- 1 devel devel 116633 Jun  2 15:11 compiler_depend.make
+-rw-r--r-- 1 devel devel    114 Jun  2 13:57 compiler_depend.ts
+-rw-r--r-- 1 devel devel   4225 Jun  2 13:57 DependInfo.cmake
+-rw-r--r-- 1 devel devel     91 Jun  2 15:11 depend.make
+-rw-r--r-- 1 devel devel    458 Jun  2 13:57 flags.make
+-rw-r--r-- 1 devel devel    825 Jun  2 13:57 link.txt
+-rw-r--r-- 1 devel devel    512 Jun  2 15:11 progress.make
+
+devel@pi5-80:~/test_tile/src/lib/openjp2 $ ls -la ~/openjpeg/build/bin/
+total 576
+drwxr-xr-x 2 devel devel   4096 Jun  2 17:41 .
+drwxr-xr-x 7 devel devel   4096 Jun  2 15:11 ..
+-rwxr-xr-x 1 devel devel 213752 Jun  2 15:08 opj_compress
+-rwxr-xr-x 1 devel devel 213704 Jun  2 15:08 opj_decompress
+-rwxr-xr-x 1 devel devel 212488 Jun  2 15:08 opj_dump
+
+devel@pi5-80:~/test_tile/src/lib/openjp2 $ make
+[  2%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/thread.c.o
+[  4%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o
+[  6%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o
+[  8%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o
+[ 10%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o
+[ 13%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/ht_dec.c.o
+[ 15%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o
+[ 17%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o
+[ 19%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o
+[ 21%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o
+[ 23%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o
+[ 26%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o
+[ 28%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o
+[ 30%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o
+[ 32%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o
+[ 34%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o
+[ 36%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o
+[ 39%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o
+[ 41%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o
+[ 43%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o
+[ 45%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/opj_malloc.c.o
+[ 47%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/sparse_array.c.o
+[ 50%] Linking C shared library ../../../bin/libopenjp2.so
+[ 50%] Built target openjp2
+[ 52%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/thread.c.o
+[ 54%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/bio.c.o
+[ 56%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/cio.c.o
+[ 58%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/dwt.c.o
+[ 60%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/event.c.o
+[ 63%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/ht_dec.c.o
+[ 65%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/image.c.o
+[ 67%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/invert.c.o
+[ 69%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/j2k.c.o
+[ 71%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/jp2.c.o
+[ 73%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/mct.c.o
+[ 76%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/mqc.c.o
+[ 78%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/openjpeg.c.o
+[ 80%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/opj_clock.c.o
+[ 82%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/pi.c.o
+[ 84%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/t1.c.o
+[ 86%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/t2.c.o
+[ 89%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/tcd.c.o
+[ 91%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/tgt.c.o
+[ 93%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/function_list.c.o
+[ 95%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/opj_malloc.c.o
+[ 97%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/sparse_array.c.o
+[100%] Linking C static library ../../../bin/libopenjp2.a
+[100%] Built target openjp2_static
+
+devel@pi5-80:~/test_tile/src/lib/openjp2 $ ls -la ~/openjpeg/build/src/lib/openjp2/CMakeFiles/openjp2.dir/
+total 1336
+drwxr-xr-x 2 devel devel   4096 Jun  2 17:49 .
+drwxr-xr-x 4 devel devel   4096 Jun  2 15:11 ..
+-rw-r--r-- 1 devel devel   4584 Jun  2 17:48 bio.c.o
+-rw-r--r-- 1 devel devel   4651 Jun  2 17:48 bio.c.o.d
+-rw-r--r-- 1 devel devel  40413 Jun  2 13:57 build.make
+-rw-r--r-- 1 devel devel  14976 Jun  2 17:48 cio.c.o
+-rw-r--r-- 1 devel devel   4651 Jun  2 17:48 cio.c.o.d
+-rw-r--r-- 1 devel devel   1985 Jun  2 15:11 cmake_clean.cmake
+-rw-r--r-- 1 devel devel 103563 Jun  2 15:11 compiler_depend.internal
+-rw-r--r-- 1 devel devel 116633 Jun  2 15:11 compiler_depend.make
+-rw-r--r-- 1 devel devel    114 Jun  2 13:57 compiler_depend.ts
+-rw-r--r-- 1 devel devel   4225 Jun  2 13:57 DependInfo.cmake
+-rw-r--r-- 1 devel devel     91 Jun  2 15:11 depend.make
+-rw-r--r-- 1 devel devel  65416 Jun  2 17:48 dwt.c.o
+-rw-r--r-- 1 devel devel   5876 Jun  2 17:48 dwt.c.o.d
+-rw-r--r-- 1 devel devel   2368 Jun  2 17:48 event.c.o
+-rw-r--r-- 1 devel devel   4655 Jun  2 17:48 event.c.o.d
+-rw-r--r-- 1 devel devel    458 Jun  2 13:57 flags.make
+-rw-r--r-- 1 devel devel   3408 Jun  2 17:49 function_list.c.o
+-rw-r--r-- 1 devel devel   4674 Jun  2 17:49 function_list.c.o.d
+-rw-r--r-- 1 devel devel  45864 Jun  2 17:48 ht_dec.c.o
+-rw-r--r-- 1 devel devel   5767 Jun  2 17:48 ht_dec.c.o.d
+-rw-r--r-- 1 devel devel   7120 Jun  2 17:48 image.c.o
+-rw-r--r-- 1 devel devel   4655 Jun  2 17:48 image.c.o.d
+-rw-r--r-- 1 devel devel   4600 Jun  2 17:48 invert.c.o
+-rw-r--r-- 1 devel devel   4657 Jun  2 17:48 invert.c.o.d
+-rw-r--r-- 1 devel devel 269208 Jun  2 17:48 j2k.c.o
+-rw-r--r-- 1 devel devel   4651 Jun  2 17:48 j2k.c.o.d
+-rw-r--r-- 1 devel devel  76752 Jun  2 17:48 jp2.c.o
+-rw-r--r-- 1 devel devel   4651 Jun  2 17:48 jp2.c.o.d
+-rw-r--r-- 1 devel devel    825 Jun  2 13:57 link.txt
+-rw-r--r-- 1 devel devel   6576 Jun  2 17:48 mct.c.o
+-rw-r--r-- 1 devel devel   4651 Jun  2 17:48 mct.c.o.d
+-rw-r--r-- 1 devel devel  17432 Jun  2 17:48 mqc.c.o
+-rw-r--r-- 1 devel devel   4651 Jun  2 17:48 mqc.c.o.d
+-rw-r--r-- 1 devel devel  19376 Jun  2 17:48 openjpeg.c.o
+-rw-r--r-- 1 devel devel   4664 Jun  2 17:48 openjpeg.c.o.d
+-rw-r--r-- 1 devel devel   1672 Jun  2 17:48 opj_clock.c.o
+-rw-r--r-- 1 devel devel   5188 Jun  2 17:48 opj_clock.c.o.d
+-rw-r--r-- 1 devel devel   4656 Jun  2 17:49 opj_malloc.c.o
+-rw-r--r-- 1 devel devel   4690 Jun  2 17:49 opj_malloc.c.o.d
+-rw-r--r-- 1 devel devel  38360 Jun  2 17:48 pi.c.o
+-rw-r--r-- 1 devel devel   4649 Jun  2 17:48 pi.c.o.d
+-rw-r--r-- 1 devel devel    512 Jun  2 15:11 progress.make
+-rw-r--r-- 1 devel devel   7848 Jun  2 17:49 sparse_array.c.o
+-rw-r--r-- 1 devel devel   4672 Jun  2 17:49 sparse_array.c.o.d
+-rw-r--r-- 1 devel devel 156768 Jun  2 17:49 t1.c.o
+-rw-r--r-- 1 devel devel   4699 Jun  2 17:49 t1.c.o.d
+-rw-r--r-- 1 devel devel  25312 Jun  2 17:49 t2.c.o
+-rw-r--r-- 1 devel devel   4649 Jun  2 17:49 t2.c.o.d
+-rw-r--r-- 1 devel devel  43744 Jun  2 17:49 tcd.c.o
+-rw-r--r-- 1 devel devel   4651 Jun  2 17:49 tcd.c.o.d
+-rw-r--r-- 1 devel devel   6008 Jun  2 17:49 tgt.c.o
+-rw-r--r-- 1 devel devel   4651 Jun  2 17:49 tgt.c.o.d
+-rw-r--r-- 1 devel devel  12896 Jun  2 17:48 thread.c.o
+-rw-r--r-- 1 devel devel   6372 Jun  2 17:48 thread.c.o.d
+
+devel@pi5-80:~/test_tile/src/lib/openjp2 $ ls -la ~/openjpeg/build/bin/
+total 2020
+drwxr-xr-x 2 devel devel   4096 Jun  2 17:49 .
+drwxr-xr-x 7 devel devel   4096 Jun  2 15:11 ..
+-rw-r--r-- 1 devel devel 842968 Jun  2 17:49 libopenjp2.a
+lrwxrwxrwx 1 devel devel     15 Jun  2 17:49 libopenjp2.so -> libopenjp2.so.7
+-rwxr-xr-x 1 devel devel 639784 Jun  2 17:49 libopenjp2.so.2.5.4
+lrwxrwxrwx 1 devel devel     19 Jun  2 17:49 libopenjp2.so.7 -> libopenjp2.so.2.5.4
+-rwxr-xr-x 1 devel devel 213752 Jun  2 15:08 opj_compress
+-rwxr-xr-x 1 devel devel 213704 Jun  2 15:08 opj_decompress
+-rwxr-xr-x 1 devel devel 212488 Jun  2 15:08 opj_dump
+
+devel@pi5-80:~/test_tile/src/tests $ gcc -L/home/devel/openjpeg/build/bin/ -lopenjp2 -lm test_tile_encoder.o -o test_tile_encoder
+/usr/bin/ld: test_tile_encoder.o: in function `main':
+test_tile_encoder.c:(.text+0x16c): undefined reference to `opj_set_default_encoder_parameters'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x768): undefined reference to `opj_create_compress'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x778): undefined reference to `opj_create_compress'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x7ac): undefined reference to `opj_set_info_handler'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x7c0): undefined reference to `opj_set_warning_handler'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x7d4): undefined reference to `opj_set_error_handler'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x7ec): undefined reference to `opj_image_tile_create'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x80c): undefined reference to `opj_destroy_codec'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x88c): undefined reference to `opj_setup_encoder'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x8c0): undefined reference to `opj_destroy_codec'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x8c8): undefined reference to `opj_image_destroy'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x8e4): undefined reference to `opj_stream_create_default_file_stream'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x91c): undefined reference to `opj_destroy_codec'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x924): undefined reference to `opj_image_destroy'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x944): undefined reference to `opj_start_compress'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x978): undefined reference to `opj_stream_destroy'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x980): undefined reference to `opj_destroy_codec'
+/usr/bin/ld: test_tile_encoder.c:(.text+0x988): undefined reference to `opj_image_destroy'
+/usr/bin/ld: test_tile_encoder.c:(.text+0xb30): undefined reference to `opj_write_tile'
+/usr/bin/ld: test_tile_encoder.c:(.text+0xb64): undefined reference to `opj_stream_destroy'
+/usr/bin/ld: test_tile_encoder.c:(.text+0xb6c): undefined reference to `opj_destroy_codec'
+/usr/bin/ld: test_tile_encoder.c:(.text+0xb74): undefined reference to `opj_image_destroy'
+/usr/bin/ld: test_tile_encoder.c:(.text+0xbbc): undefined reference to `opj_end_compress'
+/usr/bin/ld: test_tile_encoder.c:(.text+0xbf0): undefined reference to `opj_stream_destroy'
+/usr/bin/ld: test_tile_encoder.c:(.text+0xbf8): undefined reference to `opj_destroy_codec'
+/usr/bin/ld: test_tile_encoder.c:(.text+0xc00): undefined reference to `opj_image_destroy'
+/usr/bin/ld: test_tile_encoder.c:(.text+0xc18): undefined reference to `opj_stream_destroy'
+/usr/bin/ld: test_tile_encoder.c:(.text+0xc20): undefined reference to `opj_destroy_codec'
+/usr/bin/ld: test_tile_encoder.c:(.text+0xc28): undefined reference to `opj_image_destroy'
+collect2: error: ld returned 1 exit status
+ 
