@@ -1,0 +1,153 @@
+devel@pi5-80:~ $ git clone https://github.com/develone/openjpeg.git -b ultibo-052926 
+
+devel@pi5-80:~ $ cd openjpeg
+
+devel@pi5-80:~/openjpeg $ mkdir build
+
+devel@pi5-80:~/openjpeg $ cd build
+
+devel@pi5-80:~/openjpeg/build $ cmake ..
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for string.h
+-- Looking for string.h - found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Looking for stdlib.h
+-- Looking for stdlib.h - found
+-- Looking for stdio.h
+-- Looking for stdio.h - found
+-- Looking for math.h
+-- Looking for math.h - found
+-- Looking for float.h
+-- Looking for float.h - found
+-- Looking for time.h
+-- Looking for time.h - found
+-- Looking for stdarg.h
+-- Looking for stdarg.h - found
+-- Looking for ctype.h
+-- Looking for ctype.h - found
+-- Looking for assert.h
+-- Looking for assert.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for strings.h
+-- Looking for strings.h - found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Checking for 64-bit off_t
+-- Checking for 64-bit off_t - present
+-- Checking for fseeko/ftello
+-- Checking for fseeko/ftello - present
+-- Large File support - found
+-- Looking for include file malloc.h
+-- Looking for include file malloc.h - found
+-- Looking for _aligned_malloc
+-- Looking for _aligned_malloc - not found
+-- Looking for posix_memalign
+-- Looking for posix_memalign - found
+-- Looking for memalign
+-- Looking for memalign - found
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.13") 
+-- Your system seems to have a Z lib available, we will use it to generate PNG lib
+-- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.39") 
+-- Your system seems to have a PNG lib available, we will use it
+-- Found TIFF: /usr/lib/aarch64-linux-gnu/libtiff.so (found version "4.5.0")  
+-- Your system seems to have a TIFF lib available, we will use it
+-- Could NOT find LCMS2 (missing: LCMS2_LIBRARY LCMS2_INCLUDE_DIR) 
+-- Could NOT find LCMS (missing: LCMS_LIBRARY LCMS_INCLUDE_DIR) 
+-- LCMS2 or LCMS lib not found, activate BUILD_THIRDPARTY if you want build it
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devel/openjpeg/build
+
+devel@pi5-80:~/openjpeg/build $ make
+[  1%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/thread.c.o
+[  2%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o
+[  4%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o
+[  5%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o
+[  6%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o
+[  8%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/ht_dec.c.o
+[  9%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o
+[ 10%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o
+[ 12%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o
+[ 13%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o
+[ 15%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o
+[ 16%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o
+[ 17%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o
+[ 19%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o
+[ 20%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o
+[ 21%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o
+[ 23%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o
+[ 24%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o
+[ 26%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o
+[ 27%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o
+[ 28%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/opj_malloc.c.o
+[ 30%] Building C object src/lib/openjp2/CMakeFiles/openjp2.dir/sparse_array.c.o
+[ 31%] Linking C shared library ../../../bin/libopenjp2.so
+[ 31%] Built target openjp2
+[ 32%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/thread.c.o
+[ 34%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/bio.c.o
+[ 35%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/cio.c.o
+[ 36%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/dwt.c.o
+[ 38%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/event.c.o
+[ 39%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/ht_dec.c.o
+[ 41%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/image.c.o
+[ 42%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/invert.c.o
+[ 43%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/j2k.c.o
+[ 45%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/jp2.c.o
+[ 46%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/mct.c.o
+[ 47%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/mqc.c.o
+[ 49%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/openjpeg.c.o
+[ 50%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/opj_clock.c.o
+[ 52%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/pi.c.o
+[ 53%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/t1.c.o
+[ 54%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/t2.c.o
+[ 56%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/tcd.c.o
+[ 57%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/tgt.c.o
+[ 58%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/function_list.c.o
+[ 60%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/opj_malloc.c.o
+[ 61%] Building C object src/lib/openjp2/CMakeFiles/openjp2_static.dir/sparse_array.c.o
+[ 63%] Linking C static library ../../../bin/libopenjp2.a
+[ 63%] Built target openjp2_static
+[ 64%] Building C object src/bin/jp2/CMakeFiles/opj_decompress.dir/opj_decompress.c.o
+[ 65%] Building C object src/bin/jp2/CMakeFiles/opj_decompress.dir/convert.c.o
+[ 67%] Building C object src/bin/jp2/CMakeFiles/opj_decompress.dir/convertbmp.c.o
+[ 68%] Building C object src/bin/jp2/CMakeFiles/opj_decompress.dir/index.c.o
+[ 69%] Building C object src/bin/jp2/CMakeFiles/opj_decompress.dir/__/common/color.c.o
+[ 71%] Building C object src/bin/jp2/CMakeFiles/opj_decompress.dir/__/common/opj_getopt.c.o
+[ 72%] Building C object src/bin/jp2/CMakeFiles/opj_decompress.dir/converttif.c.o
+[ 73%] Building C object src/bin/jp2/CMakeFiles/opj_decompress.dir/convertpng.c.o
+[ 75%] Linking C executable ../../../bin/opj_decompress
+[ 75%] Built target opj_decompress
+[ 76%] Building C object src/bin/jp2/CMakeFiles/opj_compress.dir/opj_compress.c.o
+[ 78%] Building C object src/bin/jp2/CMakeFiles/opj_compress.dir/convert.c.o
+[ 79%] Building C object src/bin/jp2/CMakeFiles/opj_compress.dir/convertbmp.c.o
+[ 80%] Building C object src/bin/jp2/CMakeFiles/opj_compress.dir/index.c.o
+[ 82%] Building C object src/bin/jp2/CMakeFiles/opj_compress.dir/__/common/color.c.o
+[ 83%] Building C object src/bin/jp2/CMakeFiles/opj_compress.dir/__/common/opj_getopt.c.o
+[ 84%] Building C object src/bin/jp2/CMakeFiles/opj_compress.dir/converttif.c.o
+[ 86%] Building C object src/bin/jp2/CMakeFiles/opj_compress.dir/convertpng.c.o
+[ 87%] Linking C executable ../../../bin/opj_compress
+[ 87%] Built target opj_compress
+[ 89%] Building C object src/bin/jp2/CMakeFiles/opj_dump.dir/opj_dump.c.o
+[ 90%] Building C object src/bin/jp2/CMakeFiles/opj_dump.dir/convert.c.o
+[ 91%] Building C object src/bin/jp2/CMakeFiles/opj_dump.dir/convertbmp.c.o
+[ 93%] Building C object src/bin/jp2/CMakeFiles/opj_dump.dir/index.c.o
+[ 94%] Building C object src/bin/jp2/CMakeFiles/opj_dump.dir/__/common/color.c.o
+[ 95%] Building C object src/bin/jp2/CMakeFiles/opj_dump.dir/__/common/opj_getopt.c.o
+[ 97%] Building C object src/bin/jp2/CMakeFiles/opj_dump.dir/converttif.c.o
+[ 98%] Building C object src/bin/jp2/CMakeFiles/opj_dump.dir/convertpng.c.o
+[100%] Linking C executable ../../../bin/opj_dump
+[100%] Built target opj_dump
